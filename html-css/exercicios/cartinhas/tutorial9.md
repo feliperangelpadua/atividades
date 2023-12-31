@@ -17,16 +17,20 @@
 ## Citações
 
 ```htm
-<h1>citação<h1>
-<br>
-<p>uma citação se faz com a tag Q <q>desse jeito</q></p>
-<p>
-<br>
-<h1>Citação completa<h1>
+<p>uma citação se faz com a tag Q <q>desse jeito</q>.</p>
+<!--deixa o texto entre aspas-->
+```
+
+<details>
+<summary>Citações completas</summary>
+
+```html
 <p>Também temos citações grandes, nesese caso usamos a tag BLOCKQUOTE <blockquote>Que
  cria um paragrafo para a sua citação</blockquote></p>
 <!--Oque neste caso cria um paragrafo altomaticamente para esta citação-->
 ```
+
+</details>
 
 ## Abreviações
 

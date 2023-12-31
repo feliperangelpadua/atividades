@@ -37,3 +37,12 @@
 ```html
 <p>Usamos a tag INS para o texto <ins>inserido</ins>.</p>
 ```
+
+<details>
+<summary>Escondido</summary>
+
+```html
+skla jdflkaj lfkj lajf lkja lfkjalkfj asdfa a f af a f
+```
+
+</details>
