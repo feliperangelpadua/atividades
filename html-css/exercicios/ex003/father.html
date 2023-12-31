@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teste de imagens</title>
+	<style>
+		#minhaDIV
+		{
+			color: #fff;
+			background-color: #f80;
+			padding: 20px;
+			border-radius: 25px;
+			cursor: pointer;
+			box-shadow: 0px 0px 20px #ff880044;
+		}
+		#minhaDIV:hover
+		{
+			background-color: #f60;
+		}
+		#img
+		{
+			width: 400px;
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			background-color: #f0f;
+			background-image: url('logo-html-200.png');
+			background-size: 40px 40px;
+			background-position: 10px 10px;
+			background-repeat: no-repeat;
+			border-radius: 10px;
+			cursor: pointer;
+			box-shadow: 0px 0px 20px #aa00ff11;
+			margin: 20px;
+			margin-top: 200px;
+			color: #fff;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		#img:hover
+		{
+			background-color: #a0f;
+			box-shadow: 0px 0px 20px #7700ffdd;
+			text-shadow: 0px -2px 0px #6600bb;
+		}
+		#imgR
+		{
+			width: 400px;
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			background-color: #090;
+			background-image: url('logo-html-200.png');
+			background-size: 40px 40px;
+			background-position: calc(100% - 10px) 10px;
+			background-repeat: no-repeat;
+			border-radius: 10px;
+			cursor: pointer;
+			box-shadow: 0px 0px 20px #000990011;
+			margin: 20px;
+			margin-top: 200px;
+			color: #fff;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		#imgR:hover
+		{
+			background-color: #070;
+			box-shadow: 0px 0px 20px #005500dd;
+			text-shadow: 0px -2px 0px #004400;
+		}
+		#cover
+		{
+			display: flex;
+			flex-direction: row;
+		}
+	</style>
+</head>
+<body>
+	<h1>Testando carga e imagens</h1>
+	<p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+	<img src="logo-html-200.png" title="Logo HTML5">
+	<p>Podemos também carregar imagens que estão em sub-pastas</p>
+	<img src="imagens/logo-css-200.png" alt="logo-CSS3">
+	<div
+		id="minhaDIV"
+		title="titulo"
+		style="border: 1px solid red;text-align: center;"
+	>Minha DIV</div>
+
+	<div id="cover">
+		<div id="img" onclick="location.href='http://google.com';">
+			Clique aqui
+		</div>
+		<div id="imgR" onclick="window.open('http://jafacelularesepresentes.com.br');">
+			Clique aqui
+		</div>
+	</div>
+</body>
+</html>
