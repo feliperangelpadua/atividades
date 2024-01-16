@@ -1,52 +1,58 @@
-# Outras formatações
+# Trabalhando com Listas
+
+## Listas ordenadas
 
 ```html
-<code>
-	<p>um dos jeitos de deixar a letra com o mesmo espaço de caractere</p>
-</code>
-<pre>
-	<code>
-		para deixar um codigo do geito que esta
-			basta colocar a tag PRE
-		antes de CODE que ele deixa o seu texto
-		como esta no seu código
-	</code>
-</pre>
-```
-
-## Citações
-
-```htm
-<p>uma citação se faz com a tag Q <q>desse jeito</q>.</p>
-<!--deixa o texto entre aspas-->
+<h2>listas com ordem numérica</h2>
+<ol type="1" start="4">
+	<!--o start faz começar no número que você quiser, neste caso 4-->
+	<li>Acordar</li>
+	<li>Tomar café</li>
+	<li>Tomar banho</li>
+	<li>Escovar os dentes</li>
+</ol>
 ```
 
 <details>
-<summary>Citações completas</summary>
+<summary>Tipos do ol</summary>
 
 ```html
-<p>Também temos citações grandes, nesese caso usamos a tag BLOCKQUOTE <blockquote>Que
- cria um paragrafo para a sua citação</blockquote></p>
-<!--Oque neste caso cria um paragrafo altomaticamente para esta citação-->
+<ol type="1"></ol>
+<!--lista numérica-->
+<ol type="A"></ol>
+<!--lista alfabética maiúscula-->
+<ol type="a"></ol>
+<!--lista alfabética minúscula-->
+<ol type="I"></ol>
+<!--lista numérica romana maiúscula-->
+<ol type="i"></ol>
+<!--lista numérica romana minúscula-->
 ```
 
 </details>
 
-## Abreviações
+## Listas não Ordenadas
 
 ```html
-<p>
-	A tag <abbr title="teste">ABBR</abbr>para adicionar um titúlo quando você
-	passar o mause e um efeito sublinhado.
-</p>
-<!--da para colocar o title em qualquer tag.-->
+<h2>Listas não ordenadas</h2>
+<ul type="disc">
+	<li>Pão</li>
+	<li>Leite</li>
+	<li>Tomate</li>
+	<li>Manteiga</li>
+</ul>
 ```
 
-## Texto invertido
+<details>
+<summary>Tipos do ul</summary>
 
 ```html
-<h2>Texto invertido</h2>
-<p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
-<!--faz ficar assim:-->
-<p>.LMTH me sasioc rairc a odnednerpa uotsE</p>
+<ul type="disc"></ul>
+<!--disco preto-->
+<ul type="circle"></ul>
+<!--bolinha com borda preta-->
+<ul type="square"></ul>
+<!--quadrado preto-->
 ```
+
+</details>
